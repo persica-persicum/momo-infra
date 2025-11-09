@@ -35,6 +35,7 @@ openjdk version "25.0.1" 2025-10-21
 OpenJDK Runtime Environment Homebrew (build 25.0.1)
 OpenJDK 64-Bit Server VM Homebrew (build 25.0.1, mixed mode, sharing)
 ```
+## mySQLの設定
 ### mySQLのインストール
 ```
 brew install mysql
@@ -64,4 +65,12 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
+```
+
+## DB作成
+```
+mysql -u root -p
+```
+```
+CREATE DATABASE momo_db CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
 ```
