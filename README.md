@@ -1,4 +1,4 @@
-# 　インフラの環境構築
+# infraの環境構築
 
 ## Kotlin使用のためJavaの設定
 ### Homebrewのインストール
